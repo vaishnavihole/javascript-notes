@@ -14,4 +14,4 @@ function namstey() {
 var greetings = namstey();
 
 console.log(greetings);
-console,log(namstey());
+console.log(namstey());
