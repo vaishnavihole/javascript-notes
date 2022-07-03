@@ -7,3 +7,4 @@ const myNumber = [40,50,70.80,90]
 const result = myNumber.filter((num) =>num!= 55);
 
 console,log(result);
+
