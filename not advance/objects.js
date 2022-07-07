@@ -6,8 +6,15 @@ var User = function(firstName, courseCount){
        };
 };
 
+User.prototype.getFirstname = function () {
+       console.log(`Your firstname is : ${this.firstName}`);
+};
+
 var vaishnavi =new User("vaishu",2)
-console.log(vaishu);
+vaishu.getCourseCount();
+vaishu.getFirstname();
+
 
 var sam = new User("ram",1);
-console.log(sam);
+sam.getCourseCount();
+sam.getFirstname();
