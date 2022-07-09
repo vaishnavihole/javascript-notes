@@ -12,5 +12,21 @@ const vaishnavi = {
         `);
         
            
-    }
+    },
+};
+
+
+const dj = {
+   firstName : "Vaishu",
+   lastName : "Patil",
+   role : "Sub-Admin",
+   courseCount: 5,
 }
+
+//vaishnavi.getInfo();
+//dj.getInfo();
+
+//var djInfo  = vaishnavi.getInfo.bind(dj);
+//djInfo();
+
+vaishnavi.getInfo.call(dj);
